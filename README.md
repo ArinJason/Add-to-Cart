@@ -1,47 +1,16 @@
-Add to Cart Task Using Modal
-📌 Project Overview
+# React + Vite
 
-This is a ReactJS application that fetches product data from the Fake Store API and allows users to add products to a cart. The cart is managed using a modal interface, showing added items with options to remove them. The app is fully responsive and user-friendly.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Features
+Currently, two official plugins are available:
 
-Fetch products from Fake Store API
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Display products with image, title, and price
+## React Compiler
 
-Add products to cart
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Prevent duplicate cart items with alert
+## Expanding the ESLint configuration
 
-Show cart item count in the navbar
-
-View cart items in a modal
-
-Remove items from the cart
-
-Responsive design for mobile and desktop
-
-🛠 Tech Stack
-
-ReactJS
-
-JavaScript
-
-HTML & CSS
-
-Tailwind CSS
-
-🔗 API Used
-
-Fake Store API: https://fakestoreapi.com/
-
-📦 Installation & Setup
-npm install
-npm run dev
-
-🌐 Deployment
-
-Deployed using Netlify
-
-Source code hosted on GitHub
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
