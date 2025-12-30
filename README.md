@@ -45,10 +45,3 @@ Deployed using Netlify
 
 Source code hosted on GitHub
 
-📝 Notes
-
-Code is clean, readable, and well-structured
-
-Props are used to pass data between components
-
-Fully adheres to the task requirements
